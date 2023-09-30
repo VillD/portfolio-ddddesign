@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-shadow {
+  text-shadow: 2px 0 #252027, -2px 0 #252027, 0 2px #252027, 0 -2px #252027,
+    1px 1px #252027, -1px -1px #252027, 1px -1px #252027, -1px 1px #252027;
+  color: #fbfefd;
+}
+.pan-purple {
+  color: #6c80e5;
+}
+
+.cursor {
+  text-shadow: none;
+}
+
+.text-shadow--skills {
+  text-shadow: -1px 1px #252027, -1px -1px #252027, 0px 1px #252027,
+    2px 1px #252027, 4px 1px #252027, 0px -1px #252027, 2px -1px #252027,
+    4px -1px #252027;
+  color: #252027;
+}
+
+.image-profile {
+  box-shadow: 6px 6px 0px 2px #252027, -6px -6px 0px 2px #252027;
+  border: 2px solid #252027;
+  border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
+  transition: border, box-shadow 5s ease-in-out;
+  animation: animate 5s ease-in-out infinite alternate;
+}
+
+.dynamic-text {
+  margin-left: 15px;
+  height: 64px;
+  line-height: 64px;
+  overflow: hidden;
+}
+
+.dynamic-text li {
+  position: relative;
+  font-size: 60px;
+  top: 0;
+  animation: slide 4s steps(3) infinite;
+}
+.dynamic-text li span {
+  position: relative;
+}
+
+.dynamic-text li span::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: calc(100% + 14px);
+  background-color: #eecf68ff;
+  border-left: 2px solid #252027;
+  animation: typing 1.5s steps(10) infinite;
+}
+
+@keyframes slide {
+  100% {
+    top: -192px;
+  }
+}
+
+@keyframes typing {
+  100% {
+    left: 100%;
+    margin: 0 -35px 0 35px;
+  }
+}
+.image-profile:hover {
+}
+@keyframes animate {
+  0% {
+    box-shadow: 6px 6px 0px 2px #252027;
+    border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
+    border: 2px solid #252027;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    border: 2px solid #252027;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
+    box-shadow: -6px -6px 0px 2px #252027, 6px 6px 0px 2px #252027;
+    border: 2px solid #252027;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* .text-shadow {
+    text-shadow: 2px 0 #252027, -2px 0 #252027, 0 2px #252027, 0 -2px #252027,
+      1px 1px #252027, -1px -1px #252027, 1px -1px #252027, -1px 1px #252027;
+  } */
+
+  .text-shadow {
+    text-shadow: -6px 6px 0px #252027, -6px 4px 0px #252027,
+      -6px 2px 0px #252027, -4px 6px 0px #252027, -2px 6px 0px #252027,
+      -2px -2px 0px #252027, 2px -2px 0px #252027, 2px 2px 0px #252027,
+      2px 2px 0px #252027;
+  }
+}
+
+.pan-color-html {
+  -webkit-text-fill-color: #f16529;
+}
+.pan-color-css {
+  -webkit-text-fill-color: #1172b8;
+}
+.pan-color-react {
+  -webkit-text-fill-color: #53c1de;
+}
+.pan-color-js {
+  -webkit-text-fill-color: #f7df1e;
+}
+.pan-color-node {
+  -webkit-text-fill-color: #8cc84b;
+}
+.pan-color-tw {
+  -webkit-text-fill-color: #44a8b3;
+}
+.pan-color-sql span {
+  -webkit-text-fill-color: #5d87a1;
+}
+.pan-color-sql {
+  -webkit-text-fill-color: #f8981d;
+}
+
+.pan-color-figma span:nth-child(1) {
+  -webkit-text-fill-color: #f24e1e;
+}
+.pan-color-figma span:nth-child(2) {
+  -webkit-text-fill-color: #a259ff;
+}
+.pan-color-figma span:nth-child(3) {
+  -webkit-text-fill-color: #0acf83;
+}
+
+.pan-color-figma span:nth-child(4) {
+  -webkit-text-fill-color: #1abcfe;
+}
+
+.pan-color-figma span:nth-child(5) {
+  -webkit-text-fill-color: #ff7262;
+}
+
+.pan-color-photo {
+  -webkit-text-fill-color: #31a8ff;
+}
+.pan-color-vs {
+  -webkit-text-fill-color: #1f9cf0;
+}
+.pan-color-git {
+  -webkit-text-fill-color: #ee513b;
+}
+.pan-color-postman {
+  -webkit-text-fill-color: #ff6c37;
+}

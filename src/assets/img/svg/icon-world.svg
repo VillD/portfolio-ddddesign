@@ -1,0 +1,7 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon-world">
+<path id="Vector" d="M10 19C14.9706 19 19 14.9706 19 10C19 5.02944 14.9706 1 10 1C5.02944 1 1 5.02944 1 10C1 14.9706 5.02944 19 10 19Z" stroke="#222222" stroke-linecap="square"/>
+<path id="Vector_2" d="M10 19C12.6667 16.8182 14 13.8182 14 10C14 6.18182 12.6667 3.18182 10 1C7.33333 3.18182 6 6.18182 6 10C6 13.8182 7.33333 16.8182 10 19Z" stroke="#222222" stroke-linecap="round"/>
+<path id="Vector_3" d="M1.44995 7.29999H18.55M1.44995 12.7H18.55" stroke="#222222" stroke-linecap="round"/>
+</g>
+</svg>

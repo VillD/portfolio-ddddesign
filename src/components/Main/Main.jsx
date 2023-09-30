@@ -9,11 +9,9 @@ import IconLinkendin from '../../assets/img/svg/icon-linkedin.svg'
 import IconCodePend from '../../assets/img/svg/icon-codepen.svg'
 import { Typewriter } from 'react-simple-typewriter'
 import CvArchivo from '../../assets/cv/Curriculum_Rodriguez_Villegas_Lizandro_Daniel.pdf'
-import ProfileDown from '../../assets/img/profile-down-3d.png'
 import SecondProfile3D from '../../assets/img/profile-hello.png'
 
 const Main = () => {
-  function changeImg() {}
   return (
     <>
       <main className="bg-goldenLion-400 min-h-[calc(100vh-66px)] flex items-center">

@@ -70,9 +70,9 @@ const Main = () => {
           <div className="relative before:block before:w-full before:h-2/3 before:bg-[#FFD056] before:border-4 before:border-blackOut before:absolute before:bottom-2 before:shadow-boxImage">
             <img
               className="relative z-10 w-44 md:w-58 lg:w-64 "
-              onMouseOver={(e) => (e.currentTarget.src = FirstProfile3D)}
-              onMouseOut={(e) => (e.currentTarget.src = SecondProfile3D)}
-              src={FirstProfile3D}
+              onMouseOver={(e) => (e.currentTarget.src = SecondProfile3D)}
+              onMouseOut={(e) => (e.currentTarget.src = FirstProfile3D)}
+              src={SecondProfile3D}
               alt=""
             />
           </div>

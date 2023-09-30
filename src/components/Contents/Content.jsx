@@ -165,7 +165,7 @@ export const ContentAboutMe = () => {
               </div>
             </div>
 
-            <div className="m-auto w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 xl:w-[500px] xl:h-[500px] bg-profile bg-cover bg-no-repeat image-profile relative">
+            <div className="m-auto w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 xl:w-[500px] xl:h-[500px] bg-[url('../src/assets/img/profile.png')]  bg-cover bg-no-repeat image-profile relative">
               <ButtonIcon
                 src={BroswerIcon}
                 className={
